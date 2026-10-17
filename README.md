@@ -12,7 +12,7 @@
 * [Aplicação da API](#gear-aplicação-da-api);
 * [Demonstração e Protótipo](#computer-demonstração-e-protótipo);
 * [Tecnologias Utilizadas](#hammer-tecnologias-utilizadas);
-* [Acessar o Projeto](#link-acessar-o-projeto)
+* [Acessar o Projeto](#link-acessar-o-projeto).
 
 ## :file_folder: Descrição do Projeto
 O **CriptoSimple** é um dashboard minimalista focado na **Experiência do Usuário (UX)**, desenvolvido para resolver a sobrecarga de informações comum no mercado de criptomoedas. A aplicação filtra o ruído visual de exchanges complexas e entrega apenas os dados essenciais para uma consulta rápida: **Nome, Símbolo, Preço (em BRL) e Variações Percentuais.**
