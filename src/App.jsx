@@ -47,7 +47,7 @@ function App() {
     /*setCoins(mockData);*/
   }, []);
 
-  if (!coins) return <p className="font-[Geist_Mono] font-light text-lg text-center text-white min-h-screen flex justify-center items-center">Carregando cotações...</p>;
+  if (!coins) return <p className="font-[Geist_Mono] font-light text-xl text-center text-white min-h-screen flex justify-center items-center">Carregando cotações...</p>;
 
 
   return (
