@@ -41,10 +41,10 @@ A integração com a [:hot_pepper:Coinpaprika API](https://docs.coinpaprika.com/
 Como a aplicação precisa de dados de múltiplas criptomoedas simultaneamente, a implementação segue estes pilares:
 
 1. **Processamento Paralelo com `Promise.allSettled`**: 
-   Em vez de carregar uma moeda de cada vez, o código dispara todas as requisições simultaneamente. Utilizamos o `allSettled` para garantir que, mesmo que a requisição de uma moeda falhe (erro 404 ou limite atingido), as outras continuem a ser processadas.
+   Em vez de carregar uma moeda de cada vez, o código dispara todas as requisições simultaneamente. Utilizei o `allSettled` para garantir que, mesmo que a requisição de uma moeda falhe (erro 404 ou limite atingido), as outras continuem a ser processadas.
 
 2. **Normalização de Dados**:
-   Os dados brutos são filtrados e mapeados para um objeto `finalData`. Realizamos ajustes de chaves (ex: converter `TRX` para `tron`) para manter a consistência com a estrutura interna do projeto.
+   Os dados brutos são filtrados e mapeados para um objeto `finalData`. Realizei ajustes de chaves (ex: converter `TRX` para `tron`) para manter a consistência com a estrutura interna do projeto.
 
 3. **Localização e UX (User Experience)**:
    * **Moeda**: As requisições utilizam o parâmetro `?quotes=BRL` para obter preços em Reais.
@@ -79,7 +79,7 @@ De acordo com a documentação oficial, a aplicação respeita os seguintes limi
 * **Volume**: Máximo de 20.000 requisições mensais.
 
 ### :memo: Estrutura de Resposta (JSON)
-Extraímos apenas os campos essenciais: `name`, `symbol`, `price` e as variações de 1h, 6h, 12h e 24h. Exemplo de retorno esperado:
+Extraí apenas os campos essenciais: `name`, `symbol`, `price` e as variações de 1h, 6h, 12h e 24h. Exemplo de retorno esperado:
 
 ```json
 {
