@@ -12,6 +12,7 @@
 * [Aplicação da API](#gear-aplicação-da-api);
 * [Demonstração e Protótipo](#computer-demonstração-e-protótipo);
 * [Tecnologias Utilizadas](#hammer-tecnologias-utilizadas);
+* [Auditorias e Testes (Lighthouse)](#chart_with_upwards_trend-Auditorias-e-Testes-(Lighthouse));
 * [Acessar o Projeto](#link-acessar-o-projeto).
 
 ## :file_folder: Descrição do Projeto
@@ -183,6 +184,17 @@ Como utilizei o **VsCode**, o código sofre uma leve mudança: ao invés de `"mc
 ```
 
 Para que meu Figma fosse acessado pelo `MCP Server`, foi necessário colocar meu **Figma Token** no `"--figma-api-key=YOUR-KEY"`. Como dito anteriormente, o `.gitignore` foi utilizado exatamente para proteger dados sensíveis, um deles sendo o `mcp.json` que **contém** o token privado.
+
+## :chart_with_upwards_trend: Auditorias e Testes (Lighthouse)
+
+Para garantir alta performance, acessibilidade e boas práticas de UX/UI, a aplicação foi submetida à auditoria do **Google Lighthouse**, obtendo as seguintes pontuações:
+
+- **Performance**: 98/100
+- **Acessibilidade**: 100/100
+- **Boas Práticas**: 100/100
+- **SEO**: 100/100
+
+![Resultado da Auditoria Lighthouse]()
 
 ## :link: Acessar o Projeto
 
