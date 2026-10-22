@@ -189,12 +189,56 @@ Para que meu Figma fosse acessado pelo `MCP Server`, foi necessário colocar meu
 
 Para garantir alta performance, acessibilidade e boas práticas de UX/UI, a aplicação foi submetida à auditoria do **Google Lighthouse**, obtendo as seguintes pontuações:
 
-- **Performance**: 98/100
-- **Acessibilidade**: 100/100
-- **Boas Práticas**: 100/100
+
+<div>
+
+#### Mobile
+
+<table>
+<tr>
+<td valign="middle">
+
+- **Performance**: 85/100
+- **Acessibilidade**: 84/100
+- **Boas Práticas**: 96/100
 - **SEO**: 100/100
 
-![Resultado da Auditoria Lighthouse]()
+</td>
+<td valign="middle" align="center">
+
+<img alt="Auditoria Mobile" width="200" src="./src/assets/images/lighthouseMobile.png">
+
+</td>
+</tr>
+</table>
+
+</div>
+
+<div>
+
+#### Desktop
+
+<table>
+<tr>
+<td valign="middle">
+
+- **Performance**: 90/100
+- **Acessibilidade**: 84/100
+- **Boas Práticas**: 96/100
+- **SEO**: 100/100
+
+</td>
+<td valign="middle" align="center">
+
+<img alt="Auditoria Mobile" width="200" src="./src/assets/images/lighthouseDesktop.png">
+
+</td>
+</tr>
+</table>
+
+</div>
+
+
 
 ## :link: Acessar o Projeto
 
