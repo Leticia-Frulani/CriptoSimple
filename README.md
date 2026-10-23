@@ -238,7 +238,7 @@ Para garantir alta performance, acessibilidade e boas práticas de UX/UI, a apli
 
 </div>
 
-Na auditoria mobile, foi alertado que a nota de Performance foi menor por conta das extensões instaladas no meu navegador Chrome. Já a acessibilidade foi pontuada como 84, pois o constraste do `fundo.webp` com o texto de copyright era baixo.
+Na auditoria mobile, foi alertado que a nota de Performance foi menor por conta das extensões instaladas no meu navegador Chrome. Já a acessibilidade foi pontuada como 84, pois o constraste do `fundo.webp` com o texto de copyright era baixo - a intenção era essa mesmo, não queria deixar o texto com alto contraste para não poluir a tela.
 
 
 
